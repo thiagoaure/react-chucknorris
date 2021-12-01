@@ -1,0 +1,92 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Pangolin', cursive;
+}
+
+.loader{
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+  height: 70vh;
+}
+
+.home-component{
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  padding: 25px;
+ 
+}
+
+.home-component h1 {
+  font-size: 40px;
+  padding-bottom: 40px;
+
+}
+
+.home-component .label {
+  font-size: 25px;
+}
+
+.home-component .button {
+  margin-top: 20px;
+}
+
+.home-component .jokes{
+  height: 300px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 2px #504646;
+  margin-top: 20px ;
+  background-color: #fff;
+}
+
+.home-component .input{
+  box-shadow: 3px 3px 5px #a79b9b;
+  background-color: #fff;
+}
+
+.home-component .jokes img {
+    padding: 30px ;
+}
+
+nav {
+  /* display: flex; */
+  height: 220px;
+  padding: 30px;
+  background-color:   #141414;
+  color: #fff;
+}
+
+nav .uteis-links {
+  display: flex;
+  color: #fff;
+  margin-right: 150px ;
+  margin-top: 100px ;
+}
+
+nav .uteis-links a {
+  padding: 20px;
+}
+
+ nav .joke-control {
+   margin-top: 50px;
+   color:#fff;
+ }
+
+ nav .joke-select {
+   border: 2px solid #fff;
+ }
+
+nav .logo {
+  height: 150px;
+  width: auto;
+  background-color: #fff;
+}
+
+footer{
+  text-align: center;
+  height: 80px;
+  margin-top: 20px;
+  padding: 20px;
+}
