@@ -1,2 +1,3 @@
 # meliuz-react-intro
-introdução
+
+![GitHub tela](/src/assets/tela.png)
